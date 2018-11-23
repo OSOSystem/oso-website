@@ -1,0 +1,29 @@
+<footer>
+  <hr/>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <ul class="navbar-nav">
+      <a class="nav-item nav-link" href="/legal">Legal Notice</a>
+      <a class="nav-item nav-link" href="/impressum">Impressum</a>
+    </ul>
+    <ul class="navbar-nav">
+      <a class="nav-item nav-link" href="mailto:{{ site.email }}">
+        <i class="fas fa-envelope"></i>
+        {{ site.email }}
+      </a>
+
+      {% if site.discord_invite %}
+      <a class="nav-item nav-link" href="{{ site.discord_invite }}">
+        <i class="fab fa-discord"></i>
+        Discord
+      </a>
+      {% endif %}
+
+      {% if site.github_username %}
+      <a class="nav-item nav-link" href="{{ site.github_username }}">
+        <i class="fab fa-github"></i>
+        ososystem
+      </a>
+      {% endif %}
+    </ul>
+  </nav>
+</footer>

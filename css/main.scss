@@ -1,0 +1,53 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$color: #007bff;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#f8f9fa), color-stop(40%,#ffffff), color-stop(40%,#ffffff));
+}
+
+.title {
+  padding: 10em 0;
+  text-align: center;
+}
+
+.named-icon {
+  text-align: center;
+  padding-bottom: 0.25em;
+}
+
+.named-icon > .fas {
+  color: $color;
+}
+
+.expand-height {
+  padding: 4em 0;
+}
+
+@media (max-width: 768px) {
+  .expand-height {
+    padding: 2em 0;
+  }
+
+  footer ul:nth-last-child(1) {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  footer ul:nth-last-child(1) {
+    margin-left: auto;
+  }
+}
+
+@media (max-width : 992px) {
+  section .mobile-mb {
+    margin-bottom: 1.25em;
+  }
+}
