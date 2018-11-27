@@ -17,8 +17,8 @@ html {
   text-align: center;
 }
 
-.abbreviation {
-  color: #F16E51;
+h1, h2 {
+  color: #F16E51 !important;
 }
 
 .named-icon {
@@ -32,6 +32,14 @@ html {
 
 .expand-height {
   padding: 4em 0;
+}
+
+.faq-section-top {
+  margin-top: 2em;
+}
+
+.faq-section-bottom {
+  margin-bottom: 2em;
 }
 
 @media (max-width: 768px) {
