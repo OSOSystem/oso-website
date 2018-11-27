@@ -12,9 +12,13 @@ html {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#f8f9fa), color-stop(40%,#ffffff), color-stop(40%,#ffffff));
 }
 
-.title {
-  padding: 10em 0;
+.intro {
+  padding: 8em 0;
   text-align: center;
+}
+
+.abbreviation {
+  color: #F16E51;
 }
 
 .named-icon {
@@ -33,6 +37,10 @@ html {
 @media (max-width: 768px) {
   .expand-height {
     padding: 2em 0;
+  }
+
+  .intro {
+    padding: 4em;
   }
 
   footer ul:nth-last-child(1) {
