@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$color: #007bff;
+$color: #F16E51;
 
 html {
   scroll-behavior: smooth;
@@ -17,8 +17,8 @@ html {
   text-align: center;
 }
 
-h1, h2 {
-  color: #F16E51 !important;
+h1, h2, h3 {
+  color: $color !important;
 }
 
 .named-icon {
