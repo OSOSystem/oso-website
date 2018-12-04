@@ -1,31 +1,39 @@
 <footer>
   <hr/>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <ul class="navbar-nav">
-      <a class="nav-item nav-link" href="/legal">Legal Notice</a>
-      <a class="nav-item nav-link" href="/impressum">Impressum</a>
-      <a class="nav-item nav-link" href="/dataprotection">Data protection</a>
-      <a class="nav-item nav-link" href="/datenschutz">Datenschutz</a>
-    </ul>
-    <ul class="navbar-nav">
-      <a class="nav-item nav-link" href="mailto:{{ site.email }}">
-        <i class="fas fa-envelope"></i>
-        {{ site.email }}
-      </a>
+  <div class="row">
+    <div class="col-lg-12 col-sm-6">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav">
+          <a class="nav-item nav-link" href="/legal">Legal Notice</a>
+          <a class="nav-item nav-link" href="/impressum">Impressum</a>
+          <a class="nav-item nav-link" href="/dataprotection">Data protection</a>
+          <a class="nav-item nav-link" href="/datenschutz">Datenschutz</a>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-lg-12 col-sm-6">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav">
+          <a class="nav-item nav-link" href="mailto:{{ site.email }}">
+            <i class="fas fa-envelope"></i>
+            {{ site.email }}
+          </a>
 
-      {% if site.discord_invite %}
-      <a class="nav-item nav-link" href="{{ site.discord_invite }}">
-        <i class="fab fa-discord"></i>
-        Discord
-      </a>
-      {% endif %}
+          {% if site.discord_invite %}
+          <a class="nav-item nav-link" href="{{ site.discord_invite }}">
+            <i class="fab fa-discord"></i>
+            Discord
+          </a>
+          {% endif %}
 
-      {% if site.github_username %}
-      <a class="nav-item nav-link" href="https://github.com/{{ site.github_username }}">
-        <i class="fab fa-github"></i>
-        ososystem
-      </a>
-      {% endif %}
-    </ul>
-  </nav>
+          {% if site.github_username %}
+          <a class="nav-item nav-link" href="https://github.com/{{ site.github_username }}">
+            <i class="fab fa-github"></i>
+            ososystem
+          </a>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+  </div>
 </footer>

@@ -27,7 +27,7 @@ h1, h2, h3 {
 }
 
 .named-icon > .fas {
-  color: $color;
+  color: #16A5E7;
 }
 
 .expand-height {
@@ -43,6 +43,10 @@ h1, h2, h3 {
 }
 
 @media (max-width: 768px) {
+  footer nav {
+    justify-content: left !important;
+  }
+
   .expand-height {
     padding: 2em 0;
   }
@@ -50,15 +54,11 @@ h1, h2, h3 {
   .intro {
     padding: 4em;
   }
-
-  footer ul:nth-last-child(1) {
-    margin-left: 0;
-  }
 }
 
 @media (min-width: 768px) {
-  footer ul:nth-last-child(1) {
-    margin-left: auto;
+  footer nav {
+    justify-content: center !important;
   }
 }
 

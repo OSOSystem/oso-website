@@ -17,9 +17,9 @@ title: Open Source Ortungssystem
 subtitle: Feeling Safe
 email: contact@ososystem.de
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Have you ever been in a situation where it would have been handy to tell people about your whereabouts?
+  What if I told you that this whole process can be simplified by just clicking a button on a smart device?
+  Sounds cool? Then keep reading.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ososystem.de" # the base hostname & protocol for your site
 discord_invite: https://discordapp.com/invite/3rBUjtm
