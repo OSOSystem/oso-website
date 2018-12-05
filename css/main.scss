@@ -13,7 +13,8 @@ html {
 }
 
 .intro {
-  padding: 8em 0;
+  padding-top: 8em;
+  padding-bottom: 4em;
   text-align: center;
 }
 
@@ -65,5 +66,14 @@ h1, h2, h3 {
 @media (max-width : 992px) {
   div .mobile-mb {
     margin-bottom: 0.75em;
+  }
+}
+
+a {
+  color: rgba(0,0,0,.5) !important;
+
+  &:hover {
+    color: rgba(0,0,0,.7) !important;
+    text-decoration: none !important;
   }
 }
