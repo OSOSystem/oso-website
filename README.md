@@ -1,5 +1,9 @@
-# OSO Website
-The website of the oso project. It uses Jekyll and is hosted with Github Pages.
+# <img src="https://user-images.githubusercontent.com/19901781/46945965-8cb21700-d076-11e8-8c82-95af6b7388b3.png" width="80" height="80"> OSO Website
+The website of the oso project. It is built with Jekyll and hosted with Github Pages.
+
+## Images
+We are using open source images from this site 
+https://undraw.co/
 
 # Stay in touch
 Any questions or suggestions? Just write an E-Mail to [contact@ososystem.de](mailto:contact@ososystem.de)
