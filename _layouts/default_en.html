@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+    {% include head.html %}
+
+    <body>
+        <div class="bg-light">
+            <div class="container">
+            {% include header_en.html %}
+            </div>
+        </div>
+
+        {{ content }}
+
+        <div class="container">
+        {% include footer_en.html %}
+        </div>
+
+        {% include scripts.html %}
+    </body>
+</html>

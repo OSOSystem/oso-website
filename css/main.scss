@@ -24,11 +24,13 @@ h1, h2, h3 {
 
 .named-icon {
   text-align: center;
+  padding-top: 0.25em;
   padding-bottom: 0.25em;
 }
 
 .named-icon > .fas {
   color: $color;
+  padding-bottom: 0.25em;
 }
 
 .expand-height {
@@ -70,10 +72,10 @@ h1, h2, h3 {
 }
 
 a {
-  color: rgba(0,0,0,.5) !important;
+  color: rgba(0,0,0,.5);
 
   &:hover {
-    color: rgba(0,0,0,.7) !important;
-    text-decoration: none !important;
+    color: rgba(0,0,0,.7);
+    text-decoration: none;
   }
 }
